@@ -3,7 +3,7 @@ import Navbar from './component/Navbar'
 import '../src/Style/App.css'
 import Home from './component/Home'
 import Skills from './component/Skills'
-import About from './component/about'
+import About from './component/About'
 import Contactme from './component/Contactme'
 
 
