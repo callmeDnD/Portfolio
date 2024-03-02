@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allan:wght@400;700&family=Inter:wght@100..900&family=Oleo+Script:wght@400;700&display=swap');
+
+
+.hmain {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    display: flex ;
+    padding-top: 100px;
+    background-color: #C6A8E0;
+    height: 100vh;
+    
+}
+
+
+.circle-img {
+    display: block;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.left {
+    position: relative;
+    margin-right: 80px;
+}
+.right {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 700px;
+    margin-top: -90px;
+} 
+.right h1 {
+    font-size: 60px;
+    position: relative;
+    
+}
+.right h1:nth-child(1){
+    margin-left: 60px;  
+    position: relative;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.right h1:nth-child(2){
+    font-family: "Lilita One", sans-serif;
+    font-weight: lighter;
+  font-style: normal;
+}
+.right h1:nth-child(3){
+    font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 10px;
+}
+.circle {
+    position: relative;
+   top: 70px;
+   width: 500px;
+   height: 500px;
+   border-radius: 50%;
+   overflow: hidden; 
+   display: flex;
+   border: 5PX SOLID BLACK;
+   overflow: hidden;
+ }
+ .right {
+    position:relative;
+    
+ }
+ .icon { 
+    position: relative;
+    left: 50px;
+    font-size: 70px;
+    color: black;
+    
+ }
+.icons {
+    color: black;
+    margin-right: 50px;
+}
+@media  screen and (max-width:1130px) {
+    .circle{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+@media  screen and (max-width:1030px){
+    .circle{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+ @media  screen and (max-width:950px) {
+    .circle{
+        display: none;
+    }
+  
+
+    
+ }
+  @media  screen and (max-width:650px){
+    .icon { 
+        position: relative;
+        left: 30px;
+        font-size: 40px;
+        color: black;
+        
+    }
+    .right {
+       position: relative;
+       top:     40px;
+    }
+        .right h1 {
+            font-size: 40px;
+            position: relative;
+            
+        }
+        .hmain {
+            height: 60vh;
+        }
+ 
+}
+@media  screen and (max-width:445px){
+    .left {
+        display: none;
+    }
+    
+    .right {
+        padding: 10px;
+        margin-right: 0;
+        
+    }
+    
+    .right h1 {
+        font-size: 40px;
+        position: relative;
+        top: -40px;
+        margin-left: 20px;
+        
+    }
+    .circle {
+        display: none;
+    }
+    .icon {
+        position: relative;
+        margin-top: -40px;
+    }
+}

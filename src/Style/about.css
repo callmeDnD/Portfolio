@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allan:wght@400;700&family=Inter:wght@100..900&family=Oleo+Script:wght@400;700&display=swap');
+
+
+.acontent {
+    width: auto;
+    background-color: #C6A8E0;
+}
+.fboxmain {
+    width: auto;
+    display: grid;
+    place-items: center;
+   padding-top: 80px;
+
+}
+
+  .fbox{
+    padding: 40px;
+    margin-left:40px;
+    margin-right: 40px;
+ background-color: #250D39;
+ height: auto;
+ text-align: center;
+}
+.fbox h1 {
+    font-size: 40px;
+    color: white;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.fbox p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.sboxmain { 
+    margin-top: 20px;
+    display: flex;
+    background-color: #C6A8E0;
+}
+.sbox{
+    padding: 40px;
+    margin-left:40px;
+   margin-right: 40px;
+   flex: 1;
+   border: 1px solid black;
+   background-color: #250D39;
+   margin-bottom: 20px;
+    
+}
+
+
+.sboxone h1{
+    font-size: 40px;
+    color: white;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;  
+}
+.sboxone p{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.sboxtwo h1 {
+    font-size: 40px;
+    color: white;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.sboxtwo p{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.tboxmain {
+    display: grid;
+    place-items: center;
+    background-color: #C6A8E0;
+}
+
+.tbox {
+    margin-left:40px;
+    margin-right: 40px;
+    padding: 40px;
+    margin-bottom: 90px;
+    background-color: #250D39;
+    height: auto;
+    text-align: center;
+}
+.tbox h1 {
+    font-size: 40px;
+    color: white;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.tbox p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+@media screen and (max-width:880px) {
+    .sboxmain {
+        flex-direction: column;
+    }
+    
+    
+}
+@media screen and (max-width:700px){
+    .fbox h1 {
+        font-size: 25px;
+    }
+    .fbox p {
+        font-size: 15px;
+    }
+    .sboxone h1 {
+        font-size: 25px;
+    }
+    .sboxone p {
+        font-size: 15px;
+    }
+    .sboxtwo h1 {
+        font-size: 25px;
+    }
+    .sboxtwo p {
+        font-size: 15px;
+            padding: 30px;
+    }
+    .tbox h1 {
+        font-size: 25px;
+    }
+    .tbox p {
+        font-size: 15px;
+    }
+}
+
+
+
