@@ -52,17 +52,9 @@
 .csubtwo {
     height:auto;
     margin-right: 70px;
-    background-color: rgba(62, 2, 60, 0.59); 
-    backdrop-filter: blur(1px);
-    box-shadow: 2px 10px 27px -7px rgba(70,5,78,0.75);
-   -webkit-box-shadow: 2px 10px 27px -7px rgba(70,5,78,0.75);
-   -moz-box-shadow: 2px 10px 27px -7px rgba(70,5,78,0.75);
-    box-shadow: 2px 10px 27px -7px rgba(70,5,78,0.75);
--webkit-box-shadow: 2px 10px 27px -7px rgba(70,5,78,0.75);
--moz-box-shadow: 2px 10px 27px -7px rgba(70,5,78,0.75);
-   
-}
-.csubtwo h1 {
+    box-shadow: -2px 13px 37px 6px rgba(79, 14, 125, 0.75);
+ -webkit-box-shadow: -2px 13px 37px rgba(20, 9, 29, 0.75);
+ -moz-box-shadow: -2px 13px 37px 6px rgba(55, 29, 74, 0.75);
     padding: 10px;
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
