@@ -134,6 +134,10 @@
 
 }
 
+.navbutton ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
 
 
 .navbutton ul li a button {
@@ -167,6 +171,9 @@
 }
 .lilnavbutton {
     display: block;
+}
+.lilnavbutton ul li a:active {
+background-color:#0056b3;
 }
 
     
