@@ -154,7 +154,7 @@
     .navbutton ul{
         display: none;
     }
-    .main {
+    .main{
         box-shadow: none;
         background-color: rgba(47, 7, 42, 0.5);
         backdrop-filter: blur(10px);
