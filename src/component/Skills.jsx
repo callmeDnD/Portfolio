@@ -17,7 +17,7 @@ const Skills = () => {
  <span className='spantext'>60%</span>
 </div>
 <div className="progress-bar-container">
- <progress className="progress-bar" value="60" max="100" label >
+ <progress className="progress-bar" value='60' max="100" label >
  </progress> </div>
  </div>
  <div className="sone">
@@ -26,7 +26,7 @@ const Skills = () => {
  <span className='spantext'>80%</span>
  </div>
  <div className="progress-bar-container">
- <progress className="progress-bar" value="80" max="100" label >
+ <progress className="progress-bar" value='80' max="100" label >
  </progress> </div>
  </div>
  <div className="sone">
@@ -35,7 +35,7 @@ const Skills = () => {
  <span className='spantext'>40%</span>
  </div>
  <div className="progress-bar-container">
- <progress className="progress-bar" value="40" max="100" label >
+ <progress className="progress-bar" value='40' max="100" label >
  </progress> </div>
  </div>
  </div>
@@ -46,7 +46,7 @@ const Skills = () => {
 <span className='spantext'>60%</span>
 </div>
 <div className="progress-bar-container">
- <progress className="progress-bar" value="60" max="100" label >
+ <progress className="progress-bar" value='60' max="100" label >
  </progress> </div>
   </div>
   <div className="stwo">
@@ -55,7 +55,7 @@ const Skills = () => {
   <span className='spantext'>20%</span>
  </div>
  <div className="progress-bar-container">
- <progress className="progress-bar" value="20" max="100" label >
+ <progress className="progress-bar" value='20'max="100" label >
  </progress> </div>
   </div>
   
@@ -65,7 +65,7 @@ const Skills = () => {
   <span className='spantext'>30%</span>
 </div>
 <div className="progress-bar-container">
- <progress className="progress-bar" value="30" max="100" label >
+ <progress className="progress-bar" value='30' max="100" label >
  </progress> </div>
 </div>
  </div>

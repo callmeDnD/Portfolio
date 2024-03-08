@@ -70,7 +70,7 @@
     
 }
 .cinput input:nth-child(1){
-    width: 70%;
+    width: 100%;
     height: 30px;
 }
 
@@ -99,6 +99,15 @@
     width: 100%;
     height: 190px;
 }
+.cinput input:nth-child(3)::placeholder {
+    position: relative;
+    bottom: 40%;
+}
+.cinput input:nth-child(3):focus {
+    position: relative;
+    bottom: 40%;
+}
+
 
 .but {
     font-family: "Inter", sans-serif;
