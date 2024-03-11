@@ -15,7 +15,7 @@ const Navbar = () => {
            <ul>
            <li><a href='#home'>Home</a></li>
            <li><a href='#skills'>Skills</a></li>
-           <li><a href='#about'>About</a></li>
+           <li><a href='about.html'>About</a></li>
            <li><a href='#contactme'><button className='button'>Contact me</button></a></li> </ul>
         </div>
         <div className="app">
