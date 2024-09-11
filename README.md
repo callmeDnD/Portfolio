@@ -11,3 +11,5 @@ Chris Raye Mendoza
 24-07561
 
 Sana Mapili idol kahit bobo sa web pitch
+
+Kaya yan HAHAHA, mas magaling ka nga ata sakin sa web dev
